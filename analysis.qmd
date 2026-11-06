@@ -15,6 +15,7 @@ library(dbplyr)
 ```
 
 ```{r}
+#| message: false
 con <- dbConnect(duckdb(), "data/atus.duckdb")
 
 dbplyr_act <- tbl(con, "activities")
