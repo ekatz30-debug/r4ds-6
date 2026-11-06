@@ -1,7 +1,16 @@
 ---
-title: "Analyzing NBA Recruits"
+title: "Analyzing Americans' Time Use"
 author: "Ethan Katz"
 format: html
 execute:
   echo: false
 ---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(dbplyr)
+```
+
